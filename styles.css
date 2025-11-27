@@ -1,0 +1,117 @@
+body {
+    background-color: #fce4ec;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color:#333;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #f8c8d8;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin:auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #9c4d63;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #f6a6b2;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #9c4d63;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #f6a6b2;
+}
+
+.daily-prompt-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.daily-prompt-container > div {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+.daily-prompt-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #f6a6b2;
+    color: #fff;
+    text-align: right;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.quote-image {
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
